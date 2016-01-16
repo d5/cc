@@ -20,6 +20,8 @@ func main() {
 }
 ```
 
+![console output](img1.png)
+
 ## Features
 - Clean and simple API
 - Windows support
