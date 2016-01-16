@@ -5,14 +5,13 @@ Colorize terminal output.
 
 	import (
 		"log"
-
 		"gpk.io/cc"
 	)
 
 	func main() {
 		log.Printf("Enabled: %v", cc.Enabled())
-		log.Printf(cc.Red("red"))
-		log.Printf(cc.BgWhite(cc.Blue("blue")))
+		log.Printf(cc.Red("red") + " and " + cc.Blue("blue"))
+		log.Printf("%s - %s", cc.BgWhite(cc.Blue("foo")), cc.BgRed(cc.Yellow("bar")))
 		log.Printf(cc.Underline(cc.Bold("bold-underline")))
 	}
 
