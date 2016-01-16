@@ -22,6 +22,10 @@ func doFormat(s string, code ...int) string {
 		f[i] = strconv.Itoa(c)
 	}
 
+	if s[len(s)-1] == '\n' {
+		return fmt.Sprintf("\x1b[%sm%s\x1b[0m\n", strings.Join(f, ";"), s[:len(s)-1])
+	}
+
 	return fmt.Sprintf("\x1b[%sm%s\x1b[0m", strings.Join(f, ";"), s)
 }
 
