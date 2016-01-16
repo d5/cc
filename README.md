@@ -24,3 +24,9 @@ func main() {
 - Clean and simple API
 - Windows support
 - Auto-detect coloring support
+
+## Install
+
+```bash
+go get gpk.io/cc.v1
+```
