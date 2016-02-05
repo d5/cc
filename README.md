@@ -30,5 +30,5 @@ func main() {
 ## Install
 
 ```bash
-go get gpk.io/cc.v1
+go get github.com/d5/cc
 ```
