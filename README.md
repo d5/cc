@@ -1,6 +1,6 @@
 # cc
 
-[![GoDoc](https://godoc.org/gpk.io/cc?status.svg)](https://godoc.org/gpk.io/cc)
+[![GoDoc](https://godoc.org/github.com/d5/cc?status.svg)](https://godoc.org/github.com/d5/cc)
 
 Colorize terminal output.
 
@@ -9,7 +9,7 @@ package main
 
 import (
 	"log"
-	"gpk.io/cc"
+	"github.com/d5/cc"
 )
 
 func main() {
