@@ -5,7 +5,7 @@ Colorize terminal output.
 
 	import (
 		"log"
-		"gpk.io/cc"
+		"github.com/d5/cc"
 	)
 
 	func main() {
