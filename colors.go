@@ -1,9 +1,8 @@
 package cc
 
 import (
-	"os"
-
 	"fmt"
+	"os"
 	"strconv"
 	"strings"
 

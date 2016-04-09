@@ -1,0 +1,4 @@
+package: github.com/d5/cc
+import:
+- package: github.com/mattn/go-colorable
+- package: github.com/mattn/go-isatty
