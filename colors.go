@@ -16,6 +16,10 @@ var osStdout *os.File = os.Stdout
 var osStderr *os.File = os.Stderr
 
 func doFormat(s string, code ...int) string {
+	if s == "" {
+		return ""
+	}
+
 	f := make([]string, len(code))
 	for i, c := range code {
 		f[i] = strconv.Itoa(c)
