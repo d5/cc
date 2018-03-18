@@ -20,4 +20,5 @@ Features:
 	- Windows support
 	- Auto-detect coloring support
 */
+
 package cc
